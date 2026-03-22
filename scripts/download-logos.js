@@ -28,7 +28,7 @@ const LOGOS = {
   "Google":          "https://www.google.com/s2/favicons?domain=google.com&sz=128",
   "Facebook":        "https://www.google.com/s2/favicons?domain=facebook.com&sz=128",
   "Snapchat":        "https://www.google.com/s2/favicons?domain=snapchat.com&sz=128",
-  "DoorDash":        "https://www.google.com/s2/favicons?domain=doordash.com&sz=128",
+  "DoorDash":        "DoorDash": "https://www.google.com/s2/favicons?domain=doordash.com&sz=256",
   "Uber-Eats":       "https://www.google.com/s2/favicons?domain=ubereats.com&sz=128",
   "PayPal":          "https://www.google.com/s2/favicons?domain=paypal.com&sz=128",
   "Robinhood":       "https://www.google.com/s2/favicons?domain=robinhood.com&sz=128",
