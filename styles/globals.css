@@ -1,0 +1,12 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: #05050e; color: #fff; font-family: 'Space Mono', monospace; -webkit-font-smoothing: antialiased; }
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 2px; }
+input, select, textarea { color: #fff !important; caret-color: #00ff88; }
+input::placeholder, textarea::placeholder { color: rgba(255,255,255,0.28) !important; }
+button:disabled { opacity: 0.4; cursor: not-allowed !important; }
+@keyframes blink    { 0%,100%{opacity:1} 50%{opacity:.3} }
+@keyframes slideIn  { from{opacity:0;transform:translateX(16px)} to{opacity:1;transform:translateX(0)} }
+@keyframes fadeIn   { from{opacity:0;transform:translateY(8px)}  to{opacity:1;transform:translateY(0)} }
+@keyframes fadeUp   { from{opacity:0;transform:translateY(12px)} to{opacity:1;transform:translateY(0)} }
+@keyframes spin     { to { transform: rotate(360deg); } }
